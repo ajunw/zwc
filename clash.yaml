@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-02-24 22:32:37
+#  创建时间：2024-03-01 21:01:19
 #  模版：ACL4SSR_AdblockPlus
-#  节点数量：85
+#  节点数量：13
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -22,634 +22,130 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"vless","name":"🔒VL-WS-TLS🇰🇿KZ-95.164.114.43:443📡PING-309.67-MS","server":"95.164.114.43","port":443,"uuid":"afa796c4-5c0c-434d-8ea6-6a7e863666ae","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"kz-full.privateip.net","ws-opts":{"path":"/VLESS","headers":{"host":"kz-full.privateip.net"}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇸🇬SG-128.199.152.124:15325📡PING-211.84-MS","server":"128.199.152.124","port":15325,"uuid":"3c102edb-2592-4c50-b3b2-23288dfbf013","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"store.steampowered.com","ws-opts":{"path":"/","headers":{"host":"store.steampowered.com"}}}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇩🇪DE-199.247.23.98:34371📡PING-106.41-MS","server":"199.247.23.98","port":34371,"uuid":"345daaa5-0db8-4e18-821e-5bad00801030","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇮🇪IE-99.81.199.159:22222📡PING-087.00-MS","server":"99.81.199.159","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇪🇸ES-94.131.117.240:443📡PING-133.97-MS","server":"94.131.117.240","port":443,"uuid":"a748d004-334b-4c23-8832-7c7132e0dc5f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"es-full.privateip.net","ws-opts":{"path":"/VLESS","headers":{"host":"es-full.privateip.net"}}}
-  - {"type":"vless","name":"🔒VL-GRPC-NONE🇫🇷FR-178.32.117.238:41073📡PING-098.73-MS","server":"178.32.117.238","port":41073,"uuid":"8810f11f-35c9-44a1-b332-7369dc10f417","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020"},"servername":"@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020@game_file2020"}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇫🇷FR-13.38.194.72:22222📡PING-101.14-MS","server":"13.38.194.72","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"type":"vless","name":"🔒VL-TCP-TLS🇩🇪DE-172.105.72.62:443📡PING-105.15-MS","server":"172.105.72.62","port":443,"uuid":"2c00a17d-e5ef-4680-9442-8a3920a7be53","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"de-freevmess.privateip.net","tls":true,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇺🇸US-172.67.131.24:2052📡PING-002.65-MS","server":"172.67.131.24","port":2052,"uuid":"2e01ebcf-4bd6-4be4-9365-f5c623510512","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"workerr.babray.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"workerr.babray.workers.dev"}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇸🇪SE-70.34.198.142:2096📡PING-118.29-MS","server":"70.34.198.142","port":2096,"uuid":"be0a43eb-9fc9-4692-da0f-a3187b4fdd9d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/SvnTeam"}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:80📡PING-002.88-MS","server":"104.18.203.232","port":80,"uuid":"aea18427-c78f-4265-a729-3cd6fab0147c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"SHHPROXY-free.xn--69-pv2cl2k5x3fipr.org.","ws-opts":{"path":"/","headers":{"host":"SHHPROXY-free.xn--69-pv2cl2k5x3fipr.org."}}}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇩🇪DE-45.77.53.53:34372📡PING-105.84-MS","server":"45.77.53.53","port":34372,"uuid":"5775c59a-b87e-46bc-a87c-56a77da5328f","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-GRPC-TLS🇰🇿KZ-95.164.114.43:2003📡PING-310.93-MS","server":"95.164.114.43","port":2003,"uuid":"afa796c4-5c0c-434d-8ea6-6a7e863666ae","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"GRPC"},"servername":"kz-full.privateip.net"}
-  - {"type":"vless","name":"🔒VL-GRPC-TLS🇮🇷IR-185.159.153.22:40316📡PING-212.69-MS","server":"185.159.153.22","port":40316,"uuid":"59900344-9850-5676-5538-520141532025","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"a.korton.co.in"}
-  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-162.159.136.234:2095📡PING-004.66-MS","server":"162.159.136.234","port":2095,"uuid":"13eefaf3-d838-4057-9ba0-5ca402f542fb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bye-bro.xn--fhqaa952bababa.tech.","ws-opts":{"path":"/join--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON?ed=1048","headers":{"host":"bye-bro.xn--fhqaa952bababa.tech."}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇸🇪SE-13.50.183.148:22222📡PING-125.11-MS","server":"13.50.183.148","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇮🇪IE-52.209.44.212:22222📡PING-086.93-MS","server":"52.209.44.212","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇺🇸US-172.66.45.2:2087📡PING-003.50-MS","server":"172.66.45.2","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"zsf-5fa.pages.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"zsf-5fa.pages.dev"}}}
-  - {"type":"vless","name":"🔒VL-WS-NA🇬🇧GB-95.179.238.241:27638📡PING-094.93-MS","server":"95.179.238.241","port":27638,"uuid":"0e28eecb-f519-4a2f-810f-2d17afa2f007","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇳🇱NL-188.119.112.242:443📡PING-115.76-MS","server":"188.119.112.242","port":443,"uuid":"1248a1cf-b399-4f91-8e5f-17ec4d6a259b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"nl-full.privateip.net","ws-opts":{"path":"/VLESS","headers":{"host":"nl-full.privateip.net"}}}
-  - {"type":"vless","name":"🔒VL-GRPC-TLS🏴‍☠️NA-104.18.202.209:443📡PING-002.88-MS","server":"104.18.202.209","port":443,"uuid":"208bb425-800b-4e2e-8d4e-7fdc8598e5e2","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"@spikevpn"},"servername":"dl.spikevpn.cfd"}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇮🇷IR-188.121.113.211:45771📡PING-234.89-MS","server":"188.121.113.211","port":45771,"uuid":"630009a4-6c94-42e3-aa83-ae1f7ef502e8","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-NA🏴‍☠️NA-104.18.78.200:2052📡PING-002.84-MS","server":"104.18.78.200","port":2052,"uuid":"6a5dcb4a-dc17-43e8-9cc5-a5e7d2b63982","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"DLks7W.sHaParAK.bio","ws-opts":{"path":"/","headers":{"host":"DLks7W.sHaParAK.bio"}}}
-  - {"type":"vless","name":"🔒VL-GRPC-TLS🇦🇺AU-172.105.254.162:2003📡PING-187.82-MS","server":"172.105.254.162","port":2003,"uuid":"3064e737-be6e-4e86-9c85-af211379bf4f","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"GRPC"},"servername":"au-full.privateip.net"}
-  - {"type":"vless","name":"🔒VL-TCP-TLS🇺🇸US-85.239.54.108:443📡PING-020.91-MS","server":"85.239.54.108","port":443,"uuid":"b61fabfd-d729-4b19-9e2f-07022c896265","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"us-freevmess.privateip.net","tls":true,"udp":true}
-  - {"type":"vless","name":"🔒VL-GRPC-TLS🇳🇱NL-188.119.112.242:2003📡PING-102.18-MS","server":"188.119.112.242","port":2003,"uuid":"1248a1cf-b399-4f91-8e5f-17ec4d6a259b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"GRPC"},"servername":"nl-full.privateip.net"}
-  - {"type":"vless","name":"🔒VL-GRPC-TLS🇪🇸ES-94.131.117.240:2003📡PING-132.53-MS","server":"94.131.117.240","port":2003,"uuid":"a748d004-334b-4c23-8832-7c7132e0dc5f","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"GRPC"},"servername":"es-full.privateip.net"}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇬🇧GB-18.134.193.241:22222📡PING-098.05-MS","server":"18.134.193.241","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:8080📡PING-003.60-MS","server":"104.18.203.232","port":8080,"uuid":"d2868439-9ff9-41e9-b3b8-abe5d6cb4ae6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"DiReCt95-217-14-47.GamErmE12.IR","ws-opts":{"path":"/DiReCt95-217-14-47.GamErmE12.IR","headers":{"host":"DiReCt95-217-14-47.GamErmE12.IR"}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.16.3.35:8880📡PING-002.65-MS","server":"104.16.3.35","port":8880,"uuid":"075a365b-b0c7-4ba3-b5a6-597850c223f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sinaazizpor.wapgiz.workers.dev","ws-opts":{"path":"/?ed","headers":{"host":"sinaazizpor.wapgiz.workers.dev"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇦🇺AU-172.105.254.162:443📡PING-187.05-MS","server":"172.105.254.162","port":443,"uuid":"3064e737-be6e-4e86-9c85-af211379bf4f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"au-full.privateip.net","ws-opts":{"path":"/VLESS","headers":{"host":"au-full.privateip.net"}}}
-  - {"type":"vless","name":"🔒VL-TCP-TLS🇯🇵JP-172.234.87.210:443📡PING-149.69-MS","server":"172.234.87.210","port":443,"uuid":"be668c16-e29e-4c55-8e4a-ace1534a27de","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"jp-freevmess.privateip.net","tls":true,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇺🇸US-18.233.22.21:22222📡PING-028.38-MS","server":"18.233.22.21","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇩🇪DE-50.7.85.221:443📡PING-102.76-MS","server":"50.7.85.221","port":443,"uuid":"3af3a0f3-28ea-407c-a3df-2ae3b33fc174","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"salampesarm.sesewov745.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"salampesarm.sesewov745.workers.dev"}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.21.224.8:80📡PING-014.03-MS","server":"104.21.224.8","port":80,"uuid":"e28bb3f8-e64a-4419-9496-33c46220354b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sdgf.bdfstt.sbs","ws-opts":{"path":"/youtube-由零開始","headers":{"host":"sdgf.bdfstt.sbs"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇨🇦CA-99.79.104.122:22222📡PING-021.49-MS","server":"99.79.104.122","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-162.159.133.234:2095📡PING-003.44-MS","server":"162.159.133.234","port":2095,"uuid":"13eefaf3-d838-4057-9ba0-5ca402f542fb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bye-bro.xn--fhqaa952bababa.tech.","ws-opts":{"path":"/join--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON?ed=1048","headers":{"host":"bye-bro.xn--fhqaa952bababa.tech."}}}
-  - {"type":"vless","name":"🔒VL-TCP-TLS🇸🇬SG-139.162.9.137:443📡PING-213.32-MS","server":"139.162.9.137","port":443,"uuid":"6f158ff3-7d03-4fea-b106-879ea1f05ea3","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"sg-freevmess.privateip.net","tls":true,"udp":true}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇬🇧GB-89.107.58.97:56347📡PING-094.54-MS","server":"89.107.58.97","port":56347,"uuid":"5998d826-ea8e-4e45-87f5-e13d278cc310","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇨🇦CA-3.96.182.111:22222📡PING-021.39-MS","server":"3.96.182.111","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇺🇸US-172.67.193.36:80📡PING-002.86-MS","server":"172.67.193.36","port":80,"uuid":"7f55b425-a623-439b-bbd5-0b1778162054","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"Free1V2rayGod.xn--oor7hj4iyes9ldmi6b99k5zcm7ge8wfuhdo4cd8m61eqretu4en5hcvkerw.site.","ws-opts":{"path":"@V2ray_God=Telegram/?ed=2048","headers":{"host":"Free1V2rayGod.xn--oor7hj4iyes9ldmi6b99k5zcm7ge8wfuhdo4cd8m61eqretu4en5hcvkerw.site."}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.21.224.125:80📡PING-014.00-MS","server":"104.21.224.125","port":80,"uuid":"e28bb3f8-e64a-4419-9496-33c46220354b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sdgf.bdfstt.sbs","ws-opts":{"path":"/youtube-由零開始","headers":{"host":"sdgf.bdfstt.sbs"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇯🇵JP-18.181.170.90:36557📡PING-148.05-MS","server":"18.181.170.90","port":36557,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇸🇬SG-18.143.94.44:2053📡PING-215.93-MS","server":"18.143.94.44","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇮🇷IR-62.60.147.23:12345📡PING-224.05-MS","server":"62.60.147.23","port":12345,"uuid":"8f8acb81-f1b7-4ab3-80a9-ebc1b166853a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"taj.shoptaj.xyz","ws-opts":{"path":"/","headers":{"host":"taj.shoptaj.xyz"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇺🇸US-172.64.143.61:443📡PING-023.27-MS","server":"172.64.143.61","port":443,"uuid":"1c0bc7fc-4189-432c-9a3d-24501368bfef","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"V2rayargon.xn--85-pv2cl2k5x3fipr.org","ws-opts":{"path":"@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon","headers":{"host":"V2rayargon.xn--85-pv2cl2k5x3fipr.org"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇩🇪DE-5.75.236.28:443📡PING-110.40-MS","server":"5.75.236.28","port":443,"uuid":"a25e8ff9-8650-4098-86af-b524e4ec72d8","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"admin2.pythonic-ai.com","ws-opts":{"path":"/vYoLL0j3yXajA2rNVYyVkeSUkkM","headers":{"host":"admin2.pythonic-ai.com"}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇮🇷IR-194.5.50.231:35688📡PING-245.77-MS","server":"194.5.50.231","port":35688,"uuid":"1a313183-2a66-4749-a90a-c7eb58bd2768","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇩🇪DE-138.68.70.18:443📡PING-105.97-MS","server":"138.68.70.18","port":443,"uuid":"e2b7f6cf-286d-4ae7-838d-c85558b9c00f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cd.sepanta.click","ws-opts":{"path":"/","headers":{"host":"cd.sepanta.click"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🏴‍☠️NA-104.16.124.175:8443📡PING-002.68-MS","server":"104.16.124.175","port":8443,"uuid":"c63bdb06-eb1f-4269-85a5-6a3f07d88768","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"es.marzfox.fun","ws-opts":{"path":"/FOX_VPN66","headers":{"host":"es.marzfox.fun"}}}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇩🇪DE-3.79.104.11:13549📡PING-108.34-MS","server":"3.79.104.11","port":13549,"uuid":"69c42f6f-7641-41f1-e1ba-d2fbac04bfe5","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇯🇵JP-54.238.191.253:29925📡PING-148.14-MS","server":"54.238.191.253","port":29925,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇰🇷KR-132.145.91.171:8443📡PING-175.35-MS","server":"132.145.91.171","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"TG@ZDYZ2偷节点死吗","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:58769📡PING-109.72-MS","server":"5.75.133.63","port":58769,"uuid":"59219122-d989-424e-83e6-50edd3fa644a","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇩🇪DE-116.203.76.138:22304📡PING-108.71-MS","server":"116.203.76.138","port":22304,"uuid":"5642f54f-839b-4bb7-ac3b-70e822b239da","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇮🇷IR-45.92.93.134:56808📡PING-221.87-MS","server":"45.92.93.134","port":56808,"uuid":"0478738d-9644-4daa-b77f-fc0d53a82060","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇮🇷IR-185.208.78.147:22246📡PING-221.75-MS","server":"185.208.78.147","port":22246,"uuid":"ea6dcd01-397f-4e64-ae78-23a664271cf2","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇰🇷KR-193.122.126.138:8243📡PING-178.48-MS","server":"193.122.126.138","port":8243,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfed.tgzdyz2.top","ws-opts":{"path":"TG@ZDYZ2偷节点死吗","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"type":"vless","name":"🔒VL-GRPC-TLS🇺🇸US-63.141.128.8:443📡PING-002.93-MS","server":"63.141.128.8","port":443,"uuid":"0859b7f2-be12-4a5d-d2b4-6e57217b494b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER"},"servername":"jadidtar.nufilter.store"}
-  - {"type":"vless","name":"🔒VL-TCP-TLS🇳🇱NL-194.61.120.42:443📡PING-101.98-MS","server":"194.61.120.42","port":443,"uuid":"2a61fa5a-a985-4c00-91f0-f159e9337539","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"nl-freevmess.privateip.net","tls":true,"udp":true}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇮🇷IR-37.32.23.250:8090📡PING-221.06-MS","server":"37.32.23.250","port":8090,"uuid":"062c1db7-0227-4f0b-b9ed-3b06a4c63371","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇩🇪DE-3.79.104.11:16065📡PING-106.76-MS","server":"3.79.104.11","port":16065,"uuid":"d0b3ce7e-7b83-4655-8372-5da97bcb8cae","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/https://t.me/VmessProtocol"}}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:27956📡PING-108.64-MS","server":"5.75.133.63","port":27956,"uuid":"a4919862-eb11-4f24-bc6b-ae695554b9d0","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-GRPC-TLS🏴‍☠️NA-104.16.122.17:2096📡PING-002.68-MS","server":"104.16.122.17","port":2096,"uuid":"6ddb2acd-6481-4296-88c4-e75540ec6d0c","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"v2rayng.gerallnet1.sbs"}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇨🇷CR-190.93.247.247:8880📡PING-002.67-MS","server":"190.93.247.247","port":8880,"uuid":"686ef628-4f70-4cdc-8156-fae1afa81377","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bye-bro.xn--fhqaa952bababa.tech.","ws-opts":{"path":"/join--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON?ed=1048","headers":{"host":"bye-bro.xn--fhqaa952bababa.tech."}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🏴‍☠️NA-104.18.205.181:2053📡PING-004.96-MS","server":"104.18.205.181","port":2053,"uuid":"e4e7b149-8bd8-4266-8cbb-0987604dbc87","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"toujiediansigema.5112233.xyz","ws-opts":{"path":"TG@juzibaipiao偷节点死吗","headers":{"host":"toujiediansigema.5112233.xyz"}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇮🇳IN-144.24.139.190:28852📡PING-250.41-MS","server":"144.24.139.190","port":28852,"uuid":"ee187c79-7594-4a97-96bc-ff717c61a919","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/a"}}
-  - {"type":"vless","name":"🔒VL-GRPC-TLS🇩🇪DE-146.19.233.85:443📡PING-115.92-MS","server":"146.19.233.85","port":443,"uuid":"b203d933-3ccc-475d-95a8-d06a9a7cc43b","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"servername":"de1.alphav2ray.link"}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41330📡PING-108.85-MS","server":"5.75.133.63","port":41330,"uuid":"2221af67-f09c-48ca-86dc-29379c88b8b3","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇩🇪DE-91.107.240.230:29072📡PING-109.73-MS","server":"91.107.240.230","port":29072,"uuid":"766e0db9-4cf7-452c-92a3-013d8d05865a","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:4434📡PING-108.79-MS","server":"5.75.133.63","port":4434,"uuid":"60b6f021-cb3f-430d-bd48-e0a9a9aae14e","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇹🇷TR-185.219.133.194:8880📡PING-136.54-MS","server":"185.219.133.194","port":8880,"uuid":"f245e22d-5d77-47cf-94de-755956db6338","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"🔒VL-TCP-TLS🇮🇳IN-192.46.208.47:443📡PING-211.07-MS","server":"192.46.208.47","port":443,"uuid":"cb15a56a-8d6e-4810-9207-53b1938eafdf","skip-cert-verify":true,"network":"tcp","flow":"xtls-rprx-vision","servername":"in-freevmess.privateip.net","tls":true,"udp":true}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:52597📡PING-093.04-MS","server":"198.244.220.185","port":52597,"uuid":"4d8839a2-49d1-4c26-c504-2ee68093e38f","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-TCP-NA🇸🇪SE-45.82.13.117:2053📡PING-119.29-MS","server":"45.82.13.117","port":2053,"uuid":"a72dfa0c-42a1-47d8-f888-48921da1cb16","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇮🇷IR-37.152.179.157:8090📡PING-219.86-MS","server":"37.152.179.157","port":8090,"uuid":"062c1db7-0227-4f0b-b9ed-3b06a4c63371","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41854📡PING-108.40-MS","server":"5.75.133.63","port":41854,"uuid":"6278d6ad-fed7-48a1-82e3-7923948e661f","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.21.224.219:80📡PING-014.10-MS","server":"104.21.224.219","port":80,"uuid":"e28bb3f8-e64a-4419-9496-33c46220354b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sdgf.bdfstt.sbs","ws-opts":{"path":"/youtube-由零開始","headers":{"host":"sdgf.bdfstt.sbs"}}}
-  - {"type":"vless","name":"🔒VL-WS-TLS🇨🇳CN-103.184.45.45:443📡PING-002.66-MS","server":"103.184.45.45","port":443,"uuid":"9ba8eef2-aa9f-4b03-a1db-5ce409453d91","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"V2rayargon.xn--85-pv2cl2k5x3fipr.org.","ws-opts":{"path":"@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon","headers":{"host":"V2rayargon.xn--85-pv2cl2k5x3fipr.org."}}}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:48074📡PING-093.66-MS","server":"198.244.220.185","port":48074,"uuid":"6193125e-5dce-4043-9213-d6aabeeea0c2","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-NONE🏴‍☠️NA-104.17.89.90:2082📡PING-002.69-MS","server":"104.17.89.90","port":2082,"uuid":"b0138d55-a493-4dc3-9932-c6f0391707c1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"malaysiadj.card-937.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"malaysiadj.card-937.workers.dev"}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇳🇱NL-167.99.17.149:80📡PING-102.27-MS","server":"167.99.17.149","port":80,"uuid":"52bc3675-d443-4652-aa80-07d69a9ff589","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v2darkorg.還會長達達致死傷.online.","ws-opts":{"path":"/V2darkOrg","headers":{"host":"v2darkorg.還會長達達致死傷.online."}}}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇮🇷IR-2.189.130.79:6735📡PING-222.06-MS","server":"2.189.130.79","port":6735,"uuid":"e54405e9-5115-483e-9ea4-0bfcde053925","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"🔒VL-TCP-NONE🇸🇪SE-70.34.207.130:34372📡PING-118.16-MS","server":"70.34.207.130","port":34372,"uuid":"5775c59a-b87e-46bc-a87c-56a77da5328f","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"🔒VL-WS-NONE🇮🇷IR-2.189.130.82:12478📡PING-217.51-MS","server":"2.189.130.82","port":12478,"uuid":"8d1bc00c-2cd9-440a-8d84-b93bd6930770","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"ss","name":"🔒SS-TCP-NA🇺🇸US-172.233.214.104:8080📡PING-019.72-MS","server":"172.233.214.104","port":8080,"cipher":"chacha20-ietf-poly1305","password":"6BG3gG3lfpl11NE4yfsICx"}
+  - {"type":"ss","name":"🔒SS-TCP-NA🇺🇸US-216.39.248.152:8080📡PING-022.42-MS","server":"216.39.248.152","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vless","name":"🇺🇸US|vless|@v2logy|3","server":"172.67.71.160","port":443,"uuid":"b75b3034-36ab-4979-beae-3d02db1b11ec","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"always-online1.lp-airdrop.top","ws-opts":{"path":"/?ed=2048","headers":{"host":"always-online1.lp-airdrop.top"}}}
+  - {"type":"ss","name":"🔒SS-TCP-NA🇨🇦CA-134.195.196.178:811📡PING-027.71-MS","server":"134.195.196.178","port":811,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vless","name":"🏳️XX|vless|@TVCminer|5_1","server":"[2a01","port":4,"uuid":"cc7a59ce-eee7-4503-afc1-d73703c40993","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"ZEDMODEON-ZEDMODEON"},"servername":"sourceforge.net"}
+  - {"type":"ss","name":"🔒SS-TCP-NA🇨🇦CA-134.195.196.178:807📡PING-024.09-MS","server":"134.195.196.178","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vless","name":"🏳️XX|vless|@TVCminer|5_2","server":"[2a01","port":4,"uuid":"cc7a59ce-eee7-4503-afc1-d73703c40993","skip-cert-verify":true,"udp":true,"network":"grpc","tls":true,"grpc-opts":{"grpc-service-name":"ZEDMODEON-ZEDMODEON"},"servername":"sourceforge.net"}
+  - {"type":"ss","name":"🔒SS-TCP-NA🇺🇸US-216.39.248.133:7001📡PING-025.35-MS","server":"216.39.248.133","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"🔒SS-TCP-NA🇺🇸US-38.68.134.9:8881📡PING-036.05-MS","server":"38.68.134.9","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"🔒SS-TCP-NA🇺🇸US-38.68.134.9:9101📡PING-033.31-MS","server":"38.68.134.9","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"🔒SS-TCP-NA🇺🇸US-167.88.62.30:8090📡PING-036.55-MS","server":"167.88.62.30","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🔒SS-TCP-NA🇺🇸US-38.121.43.97:7306📡PING-019.46-MS","server":"38.121.43.97","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"🔒SS-TCP-NA🇸🇬SG-91.192.81.21:8388📡PING-234.36-MS","server":"91.192.81.21","port":8388,"cipher":"chacha20-ietf-poly1305","password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🔒VL-WS-TLS🇰🇿KZ-95.164.114.43:443📡PING-309.67-MS
-      - 🔒VL-WS-NONE🇸🇬SG-128.199.152.124:15325📡PING-211.84-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-199.247.23.98:34371📡PING-106.41-MS
-      - 🔒VL-WS-TLS🇮🇪IE-99.81.199.159:22222📡PING-087.00-MS
-      - 🔒VL-WS-TLS🇪🇸ES-94.131.117.240:443📡PING-133.97-MS
-      - 🔒VL-GRPC-NONE🇫🇷FR-178.32.117.238:41073📡PING-098.73-MS
-      - 🔒VL-WS-TLS🇫🇷FR-13.38.194.72:22222📡PING-101.14-MS
-      - 🔒VL-TCP-TLS🇩🇪DE-172.105.72.62:443📡PING-105.15-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.131.24:2052📡PING-002.65-MS
-      - 🔒VL-WS-NONE🇸🇪SE-70.34.198.142:2096📡PING-118.29-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:80📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-45.77.53.53:34372📡PING-105.84-MS
-      - 🔒VL-GRPC-TLS🇰🇿KZ-95.164.114.43:2003📡PING-310.93-MS
-      - 🔒VL-GRPC-TLS🇮🇷IR-185.159.153.22:40316📡PING-212.69-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.136.234:2095📡PING-004.66-MS
-      - 🔒VL-WS-TLS🇸🇪SE-13.50.183.148:22222📡PING-125.11-MS
-      - 🔒VL-WS-TLS🇮🇪IE-52.209.44.212:22222📡PING-086.93-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.66.45.2:2087📡PING-003.50-MS
-      - 🔒VL-WS-NA🇬🇧GB-95.179.238.241:27638📡PING-094.93-MS
-      - 🔒VL-WS-TLS🇳🇱NL-188.119.112.242:443📡PING-115.76-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.18.202.209:443📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-188.121.113.211:45771📡PING-234.89-MS
-      - 🔒VL-WS-NA🏴‍☠️NA-104.18.78.200:2052📡PING-002.84-MS
-      - 🔒VL-GRPC-TLS🇦🇺AU-172.105.254.162:2003📡PING-187.82-MS
-      - 🔒VL-TCP-TLS🇺🇸US-85.239.54.108:443📡PING-020.91-MS
-      - 🔒VL-GRPC-TLS🇳🇱NL-188.119.112.242:2003📡PING-102.18-MS
-      - 🔒VL-GRPC-TLS🇪🇸ES-94.131.117.240:2003📡PING-132.53-MS
-      - 🔒VL-WS-TLS🇬🇧GB-18.134.193.241:22222📡PING-098.05-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:8080📡PING-003.60-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.16.3.35:8880📡PING-002.65-MS
-      - 🔒VL-WS-TLS🇦🇺AU-172.105.254.162:443📡PING-187.05-MS
-      - 🔒VL-TCP-TLS🇯🇵JP-172.234.87.210:443📡PING-149.69-MS
-      - 🔒VL-WS-TLS🇺🇸US-18.233.22.21:22222📡PING-028.38-MS
-      - 🔒VL-WS-TLS🇩🇪DE-50.7.85.221:443📡PING-102.76-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.8:80📡PING-014.03-MS
-      - 🔒VL-WS-TLS🇨🇦CA-99.79.104.122:22222📡PING-021.49-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.133.234:2095📡PING-003.44-MS
-      - 🔒VL-TCP-TLS🇸🇬SG-139.162.9.137:443📡PING-213.32-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-89.107.58.97:56347📡PING-094.54-MS
-      - 🔒VL-WS-TLS🇨🇦CA-3.96.182.111:22222📡PING-021.39-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.193.36:80📡PING-002.86-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.125:80📡PING-014.00-MS
-      - 🔒VL-WS-TLS🇯🇵JP-18.181.170.90:36557📡PING-148.05-MS
-      - 🔒VL-WS-TLS🇸🇬SG-18.143.94.44:2053📡PING-215.93-MS
-      - 🔒VL-WS-TLS🇮🇷IR-62.60.147.23:12345📡PING-224.05-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.64.143.61:443📡PING-023.27-MS
-      - 🔒VL-WS-TLS🇩🇪DE-5.75.236.28:443📡PING-110.40-MS
-      - 🔒VL-WS-NONE🇮🇷IR-194.5.50.231:35688📡PING-245.77-MS
-      - 🔒VL-WS-TLS🇩🇪DE-138.68.70.18:443📡PING-105.97-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.16.124.175:8443📡PING-002.68-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-3.79.104.11:13549📡PING-108.34-MS
-      - 🔒VL-WS-TLS🇯🇵JP-54.238.191.253:29925📡PING-148.14-MS
-      - 🔒VL-WS-TLS🇰🇷KR-132.145.91.171:8443📡PING-175.35-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:58769📡PING-109.72-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-116.203.76.138:22304📡PING-108.71-MS
-      - 🔒VL-WS-NONE🇮🇷IR-45.92.93.134:56808📡PING-221.87-MS
-      - 🔒VL-WS-NONE🇮🇷IR-185.208.78.147:22246📡PING-221.75-MS
-      - 🔒VL-WS-TLS🇰🇷KR-193.122.126.138:8243📡PING-178.48-MS
-      - 🔒VL-GRPC-TLS🇺🇸US-63.141.128.8:443📡PING-002.93-MS
-      - 🔒VL-TCP-TLS🇳🇱NL-194.61.120.42:443📡PING-101.98-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.32.23.250:8090📡PING-221.06-MS
-      - 🔒VL-WS-NONE🇩🇪DE-3.79.104.11:16065📡PING-106.76-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:27956📡PING-108.64-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.16.122.17:2096📡PING-002.68-MS
-      - 🔒VL-WS-NONE🇨🇷CR-190.93.247.247:8880📡PING-002.67-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.18.205.181:2053📡PING-004.96-MS
-      - 🔒VL-WS-NONE🇮🇳IN-144.24.139.190:28852📡PING-250.41-MS
-      - 🔒VL-GRPC-TLS🇩🇪DE-146.19.233.85:443📡PING-115.92-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41330📡PING-108.85-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-91.107.240.230:29072📡PING-109.73-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:4434📡PING-108.79-MS
-      - 🔒VL-WS-NONE🇹🇷TR-185.219.133.194:8880📡PING-136.54-MS
-      - 🔒VL-TCP-TLS🇮🇳IN-192.46.208.47:443📡PING-211.07-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:52597📡PING-093.04-MS
-      - 🔒VL-TCP-NA🇸🇪SE-45.82.13.117:2053📡PING-119.29-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.152.179.157:8090📡PING-219.86-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41854📡PING-108.40-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.219:80📡PING-014.10-MS
-      - 🔒VL-WS-TLS🇨🇳CN-103.184.45.45:443📡PING-002.66-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:48074📡PING-093.66-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.89.90:2082📡PING-002.69-MS
-      - 🔒VL-WS-NONE🇳🇱NL-167.99.17.149:80📡PING-102.27-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.79:6735📡PING-222.06-MS
-      - 🔒VL-TCP-NONE🇸🇪SE-70.34.207.130:34372📡PING-118.16-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.82:12478📡PING-217.51-MS
+      - 🔒SS-TCP-NA🇺🇸US-172.233.214.104:8080📡PING-019.72-MS
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.152:8080📡PING-022.42-MS
+      - 🇺🇸US|vless|@v2logy|3
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:811📡PING-027.71-MS
+      - 🏳️XX|vless|@TVCminer|5_1
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:807📡PING-024.09-MS
+      - 🏳️XX|vless|@TVCminer|5_2
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.133:7001📡PING-025.35-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:8881📡PING-036.05-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:9101📡PING-033.31-MS
+      - 🔒SS-TCP-NA🇺🇸US-167.88.62.30:8090📡PING-036.55-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.121.43.97:7306📡PING-019.46-MS
+      - 🔒SS-TCP-NA🇸🇬SG-91.192.81.21:8388📡PING-234.36-MS
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🔒VL-WS-TLS🇰🇿KZ-95.164.114.43:443📡PING-309.67-MS
-      - 🔒VL-WS-NONE🇸🇬SG-128.199.152.124:15325📡PING-211.84-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-199.247.23.98:34371📡PING-106.41-MS
-      - 🔒VL-WS-TLS🇮🇪IE-99.81.199.159:22222📡PING-087.00-MS
-      - 🔒VL-WS-TLS🇪🇸ES-94.131.117.240:443📡PING-133.97-MS
-      - 🔒VL-GRPC-NONE🇫🇷FR-178.32.117.238:41073📡PING-098.73-MS
-      - 🔒VL-WS-TLS🇫🇷FR-13.38.194.72:22222📡PING-101.14-MS
-      - 🔒VL-TCP-TLS🇩🇪DE-172.105.72.62:443📡PING-105.15-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.131.24:2052📡PING-002.65-MS
-      - 🔒VL-WS-NONE🇸🇪SE-70.34.198.142:2096📡PING-118.29-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:80📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-45.77.53.53:34372📡PING-105.84-MS
-      - 🔒VL-GRPC-TLS🇰🇿KZ-95.164.114.43:2003📡PING-310.93-MS
-      - 🔒VL-GRPC-TLS🇮🇷IR-185.159.153.22:40316📡PING-212.69-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.136.234:2095📡PING-004.66-MS
-      - 🔒VL-WS-TLS🇸🇪SE-13.50.183.148:22222📡PING-125.11-MS
-      - 🔒VL-WS-TLS🇮🇪IE-52.209.44.212:22222📡PING-086.93-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.66.45.2:2087📡PING-003.50-MS
-      - 🔒VL-WS-NA🇬🇧GB-95.179.238.241:27638📡PING-094.93-MS
-      - 🔒VL-WS-TLS🇳🇱NL-188.119.112.242:443📡PING-115.76-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.18.202.209:443📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-188.121.113.211:45771📡PING-234.89-MS
-      - 🔒VL-WS-NA🏴‍☠️NA-104.18.78.200:2052📡PING-002.84-MS
-      - 🔒VL-GRPC-TLS🇦🇺AU-172.105.254.162:2003📡PING-187.82-MS
-      - 🔒VL-TCP-TLS🇺🇸US-85.239.54.108:443📡PING-020.91-MS
-      - 🔒VL-GRPC-TLS🇳🇱NL-188.119.112.242:2003📡PING-102.18-MS
-      - 🔒VL-GRPC-TLS🇪🇸ES-94.131.117.240:2003📡PING-132.53-MS
-      - 🔒VL-WS-TLS🇬🇧GB-18.134.193.241:22222📡PING-098.05-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:8080📡PING-003.60-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.16.3.35:8880📡PING-002.65-MS
-      - 🔒VL-WS-TLS🇦🇺AU-172.105.254.162:443📡PING-187.05-MS
-      - 🔒VL-TCP-TLS🇯🇵JP-172.234.87.210:443📡PING-149.69-MS
-      - 🔒VL-WS-TLS🇺🇸US-18.233.22.21:22222📡PING-028.38-MS
-      - 🔒VL-WS-TLS🇩🇪DE-50.7.85.221:443📡PING-102.76-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.8:80📡PING-014.03-MS
-      - 🔒VL-WS-TLS🇨🇦CA-99.79.104.122:22222📡PING-021.49-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.133.234:2095📡PING-003.44-MS
-      - 🔒VL-TCP-TLS🇸🇬SG-139.162.9.137:443📡PING-213.32-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-89.107.58.97:56347📡PING-094.54-MS
-      - 🔒VL-WS-TLS🇨🇦CA-3.96.182.111:22222📡PING-021.39-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.193.36:80📡PING-002.86-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.125:80📡PING-014.00-MS
-      - 🔒VL-WS-TLS🇯🇵JP-18.181.170.90:36557📡PING-148.05-MS
-      - 🔒VL-WS-TLS🇸🇬SG-18.143.94.44:2053📡PING-215.93-MS
-      - 🔒VL-WS-TLS🇮🇷IR-62.60.147.23:12345📡PING-224.05-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.64.143.61:443📡PING-023.27-MS
-      - 🔒VL-WS-TLS🇩🇪DE-5.75.236.28:443📡PING-110.40-MS
-      - 🔒VL-WS-NONE🇮🇷IR-194.5.50.231:35688📡PING-245.77-MS
-      - 🔒VL-WS-TLS🇩🇪DE-138.68.70.18:443📡PING-105.97-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.16.124.175:8443📡PING-002.68-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-3.79.104.11:13549📡PING-108.34-MS
-      - 🔒VL-WS-TLS🇯🇵JP-54.238.191.253:29925📡PING-148.14-MS
-      - 🔒VL-WS-TLS🇰🇷KR-132.145.91.171:8443📡PING-175.35-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:58769📡PING-109.72-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-116.203.76.138:22304📡PING-108.71-MS
-      - 🔒VL-WS-NONE🇮🇷IR-45.92.93.134:56808📡PING-221.87-MS
-      - 🔒VL-WS-NONE🇮🇷IR-185.208.78.147:22246📡PING-221.75-MS
-      - 🔒VL-WS-TLS🇰🇷KR-193.122.126.138:8243📡PING-178.48-MS
-      - 🔒VL-GRPC-TLS🇺🇸US-63.141.128.8:443📡PING-002.93-MS
-      - 🔒VL-TCP-TLS🇳🇱NL-194.61.120.42:443📡PING-101.98-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.32.23.250:8090📡PING-221.06-MS
-      - 🔒VL-WS-NONE🇩🇪DE-3.79.104.11:16065📡PING-106.76-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:27956📡PING-108.64-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.16.122.17:2096📡PING-002.68-MS
-      - 🔒VL-WS-NONE🇨🇷CR-190.93.247.247:8880📡PING-002.67-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.18.205.181:2053📡PING-004.96-MS
-      - 🔒VL-WS-NONE🇮🇳IN-144.24.139.190:28852📡PING-250.41-MS
-      - 🔒VL-GRPC-TLS🇩🇪DE-146.19.233.85:443📡PING-115.92-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41330📡PING-108.85-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-91.107.240.230:29072📡PING-109.73-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:4434📡PING-108.79-MS
-      - 🔒VL-WS-NONE🇹🇷TR-185.219.133.194:8880📡PING-136.54-MS
-      - 🔒VL-TCP-TLS🇮🇳IN-192.46.208.47:443📡PING-211.07-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:52597📡PING-093.04-MS
-      - 🔒VL-TCP-NA🇸🇪SE-45.82.13.117:2053📡PING-119.29-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.152.179.157:8090📡PING-219.86-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41854📡PING-108.40-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.219:80📡PING-014.10-MS
-      - 🔒VL-WS-TLS🇨🇳CN-103.184.45.45:443📡PING-002.66-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:48074📡PING-093.66-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.89.90:2082📡PING-002.69-MS
-      - 🔒VL-WS-NONE🇳🇱NL-167.99.17.149:80📡PING-102.27-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.79:6735📡PING-222.06-MS
-      - 🔒VL-TCP-NONE🇸🇪SE-70.34.207.130:34372📡PING-118.16-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.82:12478📡PING-217.51-MS
+      - 🔒SS-TCP-NA🇺🇸US-172.233.214.104:8080📡PING-019.72-MS
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.152:8080📡PING-022.42-MS
+      - 🇺🇸US|vless|@v2logy|3
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:811📡PING-027.71-MS
+      - 🏳️XX|vless|@TVCminer|5_1
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:807📡PING-024.09-MS
+      - 🏳️XX|vless|@TVCminer|5_2
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.133:7001📡PING-025.35-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:8881📡PING-036.05-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:9101📡PING-033.31-MS
+      - 🔒SS-TCP-NA🇺🇸US-167.88.62.30:8090📡PING-036.55-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.121.43.97:7306📡PING-019.46-MS
+      - 🔒SS-TCP-NA🇸🇬SG-91.192.81.21:8388📡PING-234.36-MS
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🔒VL-WS-TLS🇰🇿KZ-95.164.114.43:443📡PING-309.67-MS
-      - 🔒VL-WS-NONE🇸🇬SG-128.199.152.124:15325📡PING-211.84-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-199.247.23.98:34371📡PING-106.41-MS
-      - 🔒VL-WS-TLS🇮🇪IE-99.81.199.159:22222📡PING-087.00-MS
-      - 🔒VL-WS-TLS🇪🇸ES-94.131.117.240:443📡PING-133.97-MS
-      - 🔒VL-GRPC-NONE🇫🇷FR-178.32.117.238:41073📡PING-098.73-MS
-      - 🔒VL-WS-TLS🇫🇷FR-13.38.194.72:22222📡PING-101.14-MS
-      - 🔒VL-TCP-TLS🇩🇪DE-172.105.72.62:443📡PING-105.15-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.131.24:2052📡PING-002.65-MS
-      - 🔒VL-WS-NONE🇸🇪SE-70.34.198.142:2096📡PING-118.29-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:80📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-45.77.53.53:34372📡PING-105.84-MS
-      - 🔒VL-GRPC-TLS🇰🇿KZ-95.164.114.43:2003📡PING-310.93-MS
-      - 🔒VL-GRPC-TLS🇮🇷IR-185.159.153.22:40316📡PING-212.69-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.136.234:2095📡PING-004.66-MS
-      - 🔒VL-WS-TLS🇸🇪SE-13.50.183.148:22222📡PING-125.11-MS
-      - 🔒VL-WS-TLS🇮🇪IE-52.209.44.212:22222📡PING-086.93-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.66.45.2:2087📡PING-003.50-MS
-      - 🔒VL-WS-NA🇬🇧GB-95.179.238.241:27638📡PING-094.93-MS
-      - 🔒VL-WS-TLS🇳🇱NL-188.119.112.242:443📡PING-115.76-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.18.202.209:443📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-188.121.113.211:45771📡PING-234.89-MS
-      - 🔒VL-WS-NA🏴‍☠️NA-104.18.78.200:2052📡PING-002.84-MS
-      - 🔒VL-GRPC-TLS🇦🇺AU-172.105.254.162:2003📡PING-187.82-MS
-      - 🔒VL-TCP-TLS🇺🇸US-85.239.54.108:443📡PING-020.91-MS
-      - 🔒VL-GRPC-TLS🇳🇱NL-188.119.112.242:2003📡PING-102.18-MS
-      - 🔒VL-GRPC-TLS🇪🇸ES-94.131.117.240:2003📡PING-132.53-MS
-      - 🔒VL-WS-TLS🇬🇧GB-18.134.193.241:22222📡PING-098.05-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:8080📡PING-003.60-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.16.3.35:8880📡PING-002.65-MS
-      - 🔒VL-WS-TLS🇦🇺AU-172.105.254.162:443📡PING-187.05-MS
-      - 🔒VL-TCP-TLS🇯🇵JP-172.234.87.210:443📡PING-149.69-MS
-      - 🔒VL-WS-TLS🇺🇸US-18.233.22.21:22222📡PING-028.38-MS
-      - 🔒VL-WS-TLS🇩🇪DE-50.7.85.221:443📡PING-102.76-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.8:80📡PING-014.03-MS
-      - 🔒VL-WS-TLS🇨🇦CA-99.79.104.122:22222📡PING-021.49-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.133.234:2095📡PING-003.44-MS
-      - 🔒VL-TCP-TLS🇸🇬SG-139.162.9.137:443📡PING-213.32-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-89.107.58.97:56347📡PING-094.54-MS
-      - 🔒VL-WS-TLS🇨🇦CA-3.96.182.111:22222📡PING-021.39-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.193.36:80📡PING-002.86-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.125:80📡PING-014.00-MS
-      - 🔒VL-WS-TLS🇯🇵JP-18.181.170.90:36557📡PING-148.05-MS
-      - 🔒VL-WS-TLS🇸🇬SG-18.143.94.44:2053📡PING-215.93-MS
-      - 🔒VL-WS-TLS🇮🇷IR-62.60.147.23:12345📡PING-224.05-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.64.143.61:443📡PING-023.27-MS
-      - 🔒VL-WS-TLS🇩🇪DE-5.75.236.28:443📡PING-110.40-MS
-      - 🔒VL-WS-NONE🇮🇷IR-194.5.50.231:35688📡PING-245.77-MS
-      - 🔒VL-WS-TLS🇩🇪DE-138.68.70.18:443📡PING-105.97-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.16.124.175:8443📡PING-002.68-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-3.79.104.11:13549📡PING-108.34-MS
-      - 🔒VL-WS-TLS🇯🇵JP-54.238.191.253:29925📡PING-148.14-MS
-      - 🔒VL-WS-TLS🇰🇷KR-132.145.91.171:8443📡PING-175.35-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:58769📡PING-109.72-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-116.203.76.138:22304📡PING-108.71-MS
-      - 🔒VL-WS-NONE🇮🇷IR-45.92.93.134:56808📡PING-221.87-MS
-      - 🔒VL-WS-NONE🇮🇷IR-185.208.78.147:22246📡PING-221.75-MS
-      - 🔒VL-WS-TLS🇰🇷KR-193.122.126.138:8243📡PING-178.48-MS
-      - 🔒VL-GRPC-TLS🇺🇸US-63.141.128.8:443📡PING-002.93-MS
-      - 🔒VL-TCP-TLS🇳🇱NL-194.61.120.42:443📡PING-101.98-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.32.23.250:8090📡PING-221.06-MS
-      - 🔒VL-WS-NONE🇩🇪DE-3.79.104.11:16065📡PING-106.76-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:27956📡PING-108.64-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.16.122.17:2096📡PING-002.68-MS
-      - 🔒VL-WS-NONE🇨🇷CR-190.93.247.247:8880📡PING-002.67-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.18.205.181:2053📡PING-004.96-MS
-      - 🔒VL-WS-NONE🇮🇳IN-144.24.139.190:28852📡PING-250.41-MS
-      - 🔒VL-GRPC-TLS🇩🇪DE-146.19.233.85:443📡PING-115.92-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41330📡PING-108.85-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-91.107.240.230:29072📡PING-109.73-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:4434📡PING-108.79-MS
-      - 🔒VL-WS-NONE🇹🇷TR-185.219.133.194:8880📡PING-136.54-MS
-      - 🔒VL-TCP-TLS🇮🇳IN-192.46.208.47:443📡PING-211.07-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:52597📡PING-093.04-MS
-      - 🔒VL-TCP-NA🇸🇪SE-45.82.13.117:2053📡PING-119.29-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.152.179.157:8090📡PING-219.86-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41854📡PING-108.40-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.219:80📡PING-014.10-MS
-      - 🔒VL-WS-TLS🇨🇳CN-103.184.45.45:443📡PING-002.66-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:48074📡PING-093.66-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.89.90:2082📡PING-002.69-MS
-      - 🔒VL-WS-NONE🇳🇱NL-167.99.17.149:80📡PING-102.27-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.79:6735📡PING-222.06-MS
-      - 🔒VL-TCP-NONE🇸🇪SE-70.34.207.130:34372📡PING-118.16-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.82:12478📡PING-217.51-MS
+      - 🔒SS-TCP-NA🇺🇸US-172.233.214.104:8080📡PING-019.72-MS
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.152:8080📡PING-022.42-MS
+      - 🇺🇸US|vless|@v2logy|3
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:811📡PING-027.71-MS
+      - 🏳️XX|vless|@TVCminer|5_1
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:807📡PING-024.09-MS
+      - 🏳️XX|vless|@TVCminer|5_2
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.133:7001📡PING-025.35-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:8881📡PING-036.05-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:9101📡PING-033.31-MS
+      - 🔒SS-TCP-NA🇺🇸US-167.88.62.30:8090📡PING-036.55-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.121.43.97:7306📡PING-019.46-MS
+      - 🔒SS-TCP-NA🇸🇬SG-91.192.81.21:8388📡PING-234.36-MS
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🔒VL-WS-TLS🇰🇿KZ-95.164.114.43:443📡PING-309.67-MS
-      - 🔒VL-WS-NONE🇸🇬SG-128.199.152.124:15325📡PING-211.84-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-199.247.23.98:34371📡PING-106.41-MS
-      - 🔒VL-WS-TLS🇮🇪IE-99.81.199.159:22222📡PING-087.00-MS
-      - 🔒VL-WS-TLS🇪🇸ES-94.131.117.240:443📡PING-133.97-MS
-      - 🔒VL-GRPC-NONE🇫🇷FR-178.32.117.238:41073📡PING-098.73-MS
-      - 🔒VL-WS-TLS🇫🇷FR-13.38.194.72:22222📡PING-101.14-MS
-      - 🔒VL-TCP-TLS🇩🇪DE-172.105.72.62:443📡PING-105.15-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.131.24:2052📡PING-002.65-MS
-      - 🔒VL-WS-NONE🇸🇪SE-70.34.198.142:2096📡PING-118.29-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:80📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-45.77.53.53:34372📡PING-105.84-MS
-      - 🔒VL-GRPC-TLS🇰🇿KZ-95.164.114.43:2003📡PING-310.93-MS
-      - 🔒VL-GRPC-TLS🇮🇷IR-185.159.153.22:40316📡PING-212.69-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.136.234:2095📡PING-004.66-MS
-      - 🔒VL-WS-TLS🇸🇪SE-13.50.183.148:22222📡PING-125.11-MS
-      - 🔒VL-WS-TLS🇮🇪IE-52.209.44.212:22222📡PING-086.93-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.66.45.2:2087📡PING-003.50-MS
-      - 🔒VL-WS-NA🇬🇧GB-95.179.238.241:27638📡PING-094.93-MS
-      - 🔒VL-WS-TLS🇳🇱NL-188.119.112.242:443📡PING-115.76-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.18.202.209:443📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-188.121.113.211:45771📡PING-234.89-MS
-      - 🔒VL-WS-NA🏴‍☠️NA-104.18.78.200:2052📡PING-002.84-MS
-      - 🔒VL-GRPC-TLS🇦🇺AU-172.105.254.162:2003📡PING-187.82-MS
-      - 🔒VL-TCP-TLS🇺🇸US-85.239.54.108:443📡PING-020.91-MS
-      - 🔒VL-GRPC-TLS🇳🇱NL-188.119.112.242:2003📡PING-102.18-MS
-      - 🔒VL-GRPC-TLS🇪🇸ES-94.131.117.240:2003📡PING-132.53-MS
-      - 🔒VL-WS-TLS🇬🇧GB-18.134.193.241:22222📡PING-098.05-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:8080📡PING-003.60-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.16.3.35:8880📡PING-002.65-MS
-      - 🔒VL-WS-TLS🇦🇺AU-172.105.254.162:443📡PING-187.05-MS
-      - 🔒VL-TCP-TLS🇯🇵JP-172.234.87.210:443📡PING-149.69-MS
-      - 🔒VL-WS-TLS🇺🇸US-18.233.22.21:22222📡PING-028.38-MS
-      - 🔒VL-WS-TLS🇩🇪DE-50.7.85.221:443📡PING-102.76-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.8:80📡PING-014.03-MS
-      - 🔒VL-WS-TLS🇨🇦CA-99.79.104.122:22222📡PING-021.49-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.133.234:2095📡PING-003.44-MS
-      - 🔒VL-TCP-TLS🇸🇬SG-139.162.9.137:443📡PING-213.32-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-89.107.58.97:56347📡PING-094.54-MS
-      - 🔒VL-WS-TLS🇨🇦CA-3.96.182.111:22222📡PING-021.39-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.193.36:80📡PING-002.86-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.125:80📡PING-014.00-MS
-      - 🔒VL-WS-TLS🇯🇵JP-18.181.170.90:36557📡PING-148.05-MS
-      - 🔒VL-WS-TLS🇸🇬SG-18.143.94.44:2053📡PING-215.93-MS
-      - 🔒VL-WS-TLS🇮🇷IR-62.60.147.23:12345📡PING-224.05-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.64.143.61:443📡PING-023.27-MS
-      - 🔒VL-WS-TLS🇩🇪DE-5.75.236.28:443📡PING-110.40-MS
-      - 🔒VL-WS-NONE🇮🇷IR-194.5.50.231:35688📡PING-245.77-MS
-      - 🔒VL-WS-TLS🇩🇪DE-138.68.70.18:443📡PING-105.97-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.16.124.175:8443📡PING-002.68-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-3.79.104.11:13549📡PING-108.34-MS
-      - 🔒VL-WS-TLS🇯🇵JP-54.238.191.253:29925📡PING-148.14-MS
-      - 🔒VL-WS-TLS🇰🇷KR-132.145.91.171:8443📡PING-175.35-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:58769📡PING-109.72-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-116.203.76.138:22304📡PING-108.71-MS
-      - 🔒VL-WS-NONE🇮🇷IR-45.92.93.134:56808📡PING-221.87-MS
-      - 🔒VL-WS-NONE🇮🇷IR-185.208.78.147:22246📡PING-221.75-MS
-      - 🔒VL-WS-TLS🇰🇷KR-193.122.126.138:8243📡PING-178.48-MS
-      - 🔒VL-GRPC-TLS🇺🇸US-63.141.128.8:443📡PING-002.93-MS
-      - 🔒VL-TCP-TLS🇳🇱NL-194.61.120.42:443📡PING-101.98-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.32.23.250:8090📡PING-221.06-MS
-      - 🔒VL-WS-NONE🇩🇪DE-3.79.104.11:16065📡PING-106.76-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:27956📡PING-108.64-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.16.122.17:2096📡PING-002.68-MS
-      - 🔒VL-WS-NONE🇨🇷CR-190.93.247.247:8880📡PING-002.67-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.18.205.181:2053📡PING-004.96-MS
-      - 🔒VL-WS-NONE🇮🇳IN-144.24.139.190:28852📡PING-250.41-MS
-      - 🔒VL-GRPC-TLS🇩🇪DE-146.19.233.85:443📡PING-115.92-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41330📡PING-108.85-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-91.107.240.230:29072📡PING-109.73-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:4434📡PING-108.79-MS
-      - 🔒VL-WS-NONE🇹🇷TR-185.219.133.194:8880📡PING-136.54-MS
-      - 🔒VL-TCP-TLS🇮🇳IN-192.46.208.47:443📡PING-211.07-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:52597📡PING-093.04-MS
-      - 🔒VL-TCP-NA🇸🇪SE-45.82.13.117:2053📡PING-119.29-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.152.179.157:8090📡PING-219.86-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41854📡PING-108.40-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.219:80📡PING-014.10-MS
-      - 🔒VL-WS-TLS🇨🇳CN-103.184.45.45:443📡PING-002.66-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:48074📡PING-093.66-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.89.90:2082📡PING-002.69-MS
-      - 🔒VL-WS-NONE🇳🇱NL-167.99.17.149:80📡PING-102.27-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.79:6735📡PING-222.06-MS
-      - 🔒VL-TCP-NONE🇸🇪SE-70.34.207.130:34372📡PING-118.16-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.82:12478📡PING-217.51-MS
+      - 🔒SS-TCP-NA🇺🇸US-172.233.214.104:8080📡PING-019.72-MS
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.152:8080📡PING-022.42-MS
+      - 🇺🇸US|vless|@v2logy|3
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:811📡PING-027.71-MS
+      - 🏳️XX|vless|@TVCminer|5_1
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:807📡PING-024.09-MS
+      - 🏳️XX|vless|@TVCminer|5_2
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.133:7001📡PING-025.35-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:8881📡PING-036.05-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:9101📡PING-033.31-MS
+      - 🔒SS-TCP-NA🇺🇸US-167.88.62.30:8090📡PING-036.55-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.121.43.97:7306📡PING-019.46-MS
+      - 🔒SS-TCP-NA🇸🇬SG-91.192.81.21:8388📡PING-234.36-MS
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🔒VL-WS-TLS🇰🇿KZ-95.164.114.43:443📡PING-309.67-MS
-      - 🔒VL-WS-NONE🇸🇬SG-128.199.152.124:15325📡PING-211.84-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-199.247.23.98:34371📡PING-106.41-MS
-      - 🔒VL-WS-TLS🇮🇪IE-99.81.199.159:22222📡PING-087.00-MS
-      - 🔒VL-WS-TLS🇪🇸ES-94.131.117.240:443📡PING-133.97-MS
-      - 🔒VL-GRPC-NONE🇫🇷FR-178.32.117.238:41073📡PING-098.73-MS
-      - 🔒VL-WS-TLS🇫🇷FR-13.38.194.72:22222📡PING-101.14-MS
-      - 🔒VL-TCP-TLS🇩🇪DE-172.105.72.62:443📡PING-105.15-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.131.24:2052📡PING-002.65-MS
-      - 🔒VL-WS-NONE🇸🇪SE-70.34.198.142:2096📡PING-118.29-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:80📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-45.77.53.53:34372📡PING-105.84-MS
-      - 🔒VL-GRPC-TLS🇰🇿KZ-95.164.114.43:2003📡PING-310.93-MS
-      - 🔒VL-GRPC-TLS🇮🇷IR-185.159.153.22:40316📡PING-212.69-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.136.234:2095📡PING-004.66-MS
-      - 🔒VL-WS-TLS🇸🇪SE-13.50.183.148:22222📡PING-125.11-MS
-      - 🔒VL-WS-TLS🇮🇪IE-52.209.44.212:22222📡PING-086.93-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.66.45.2:2087📡PING-003.50-MS
-      - 🔒VL-WS-NA🇬🇧GB-95.179.238.241:27638📡PING-094.93-MS
-      - 🔒VL-WS-TLS🇳🇱NL-188.119.112.242:443📡PING-115.76-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.18.202.209:443📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-188.121.113.211:45771📡PING-234.89-MS
-      - 🔒VL-WS-NA🏴‍☠️NA-104.18.78.200:2052📡PING-002.84-MS
-      - 🔒VL-GRPC-TLS🇦🇺AU-172.105.254.162:2003📡PING-187.82-MS
-      - 🔒VL-TCP-TLS🇺🇸US-85.239.54.108:443📡PING-020.91-MS
-      - 🔒VL-GRPC-TLS🇳🇱NL-188.119.112.242:2003📡PING-102.18-MS
-      - 🔒VL-GRPC-TLS🇪🇸ES-94.131.117.240:2003📡PING-132.53-MS
-      - 🔒VL-WS-TLS🇬🇧GB-18.134.193.241:22222📡PING-098.05-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:8080📡PING-003.60-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.16.3.35:8880📡PING-002.65-MS
-      - 🔒VL-WS-TLS🇦🇺AU-172.105.254.162:443📡PING-187.05-MS
-      - 🔒VL-TCP-TLS🇯🇵JP-172.234.87.210:443📡PING-149.69-MS
-      - 🔒VL-WS-TLS🇺🇸US-18.233.22.21:22222📡PING-028.38-MS
-      - 🔒VL-WS-TLS🇩🇪DE-50.7.85.221:443📡PING-102.76-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.8:80📡PING-014.03-MS
-      - 🔒VL-WS-TLS🇨🇦CA-99.79.104.122:22222📡PING-021.49-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.133.234:2095📡PING-003.44-MS
-      - 🔒VL-TCP-TLS🇸🇬SG-139.162.9.137:443📡PING-213.32-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-89.107.58.97:56347📡PING-094.54-MS
-      - 🔒VL-WS-TLS🇨🇦CA-3.96.182.111:22222📡PING-021.39-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.193.36:80📡PING-002.86-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.125:80📡PING-014.00-MS
-      - 🔒VL-WS-TLS🇯🇵JP-18.181.170.90:36557📡PING-148.05-MS
-      - 🔒VL-WS-TLS🇸🇬SG-18.143.94.44:2053📡PING-215.93-MS
-      - 🔒VL-WS-TLS🇮🇷IR-62.60.147.23:12345📡PING-224.05-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.64.143.61:443📡PING-023.27-MS
-      - 🔒VL-WS-TLS🇩🇪DE-5.75.236.28:443📡PING-110.40-MS
-      - 🔒VL-WS-NONE🇮🇷IR-194.5.50.231:35688📡PING-245.77-MS
-      - 🔒VL-WS-TLS🇩🇪DE-138.68.70.18:443📡PING-105.97-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.16.124.175:8443📡PING-002.68-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-3.79.104.11:13549📡PING-108.34-MS
-      - 🔒VL-WS-TLS🇯🇵JP-54.238.191.253:29925📡PING-148.14-MS
-      - 🔒VL-WS-TLS🇰🇷KR-132.145.91.171:8443📡PING-175.35-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:58769📡PING-109.72-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-116.203.76.138:22304📡PING-108.71-MS
-      - 🔒VL-WS-NONE🇮🇷IR-45.92.93.134:56808📡PING-221.87-MS
-      - 🔒VL-WS-NONE🇮🇷IR-185.208.78.147:22246📡PING-221.75-MS
-      - 🔒VL-WS-TLS🇰🇷KR-193.122.126.138:8243📡PING-178.48-MS
-      - 🔒VL-GRPC-TLS🇺🇸US-63.141.128.8:443📡PING-002.93-MS
-      - 🔒VL-TCP-TLS🇳🇱NL-194.61.120.42:443📡PING-101.98-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.32.23.250:8090📡PING-221.06-MS
-      - 🔒VL-WS-NONE🇩🇪DE-3.79.104.11:16065📡PING-106.76-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:27956📡PING-108.64-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.16.122.17:2096📡PING-002.68-MS
-      - 🔒VL-WS-NONE🇨🇷CR-190.93.247.247:8880📡PING-002.67-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.18.205.181:2053📡PING-004.96-MS
-      - 🔒VL-WS-NONE🇮🇳IN-144.24.139.190:28852📡PING-250.41-MS
-      - 🔒VL-GRPC-TLS🇩🇪DE-146.19.233.85:443📡PING-115.92-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41330📡PING-108.85-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-91.107.240.230:29072📡PING-109.73-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:4434📡PING-108.79-MS
-      - 🔒VL-WS-NONE🇹🇷TR-185.219.133.194:8880📡PING-136.54-MS
-      - 🔒VL-TCP-TLS🇮🇳IN-192.46.208.47:443📡PING-211.07-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:52597📡PING-093.04-MS
-      - 🔒VL-TCP-NA🇸🇪SE-45.82.13.117:2053📡PING-119.29-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.152.179.157:8090📡PING-219.86-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41854📡PING-108.40-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.219:80📡PING-014.10-MS
-      - 🔒VL-WS-TLS🇨🇳CN-103.184.45.45:443📡PING-002.66-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:48074📡PING-093.66-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.89.90:2082📡PING-002.69-MS
-      - 🔒VL-WS-NONE🇳🇱NL-167.99.17.149:80📡PING-102.27-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.79:6735📡PING-222.06-MS
-      - 🔒VL-TCP-NONE🇸🇪SE-70.34.207.130:34372📡PING-118.16-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.82:12478📡PING-217.51-MS
+      - 🔒SS-TCP-NA🇺🇸US-172.233.214.104:8080📡PING-019.72-MS
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.152:8080📡PING-022.42-MS
+      - 🇺🇸US|vless|@v2logy|3
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:811📡PING-027.71-MS
+      - 🏳️XX|vless|@TVCminer|5_1
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:807📡PING-024.09-MS
+      - 🏳️XX|vless|@TVCminer|5_2
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.133:7001📡PING-025.35-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:8881📡PING-036.05-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:9101📡PING-033.31-MS
+      - 🔒SS-TCP-NA🇺🇸US-167.88.62.30:8090📡PING-036.55-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.121.43.97:7306📡PING-019.46-MS
+      - 🔒SS-TCP-NA🇸🇬SG-91.192.81.21:8388📡PING-234.36-MS
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🔒VL-WS-TLS🇰🇿KZ-95.164.114.43:443📡PING-309.67-MS
-      - 🔒VL-WS-NONE🇸🇬SG-128.199.152.124:15325📡PING-211.84-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-199.247.23.98:34371📡PING-106.41-MS
-      - 🔒VL-WS-TLS🇮🇪IE-99.81.199.159:22222📡PING-087.00-MS
-      - 🔒VL-WS-TLS🇪🇸ES-94.131.117.240:443📡PING-133.97-MS
-      - 🔒VL-GRPC-NONE🇫🇷FR-178.32.117.238:41073📡PING-098.73-MS
-      - 🔒VL-WS-TLS🇫🇷FR-13.38.194.72:22222📡PING-101.14-MS
-      - 🔒VL-TCP-TLS🇩🇪DE-172.105.72.62:443📡PING-105.15-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.131.24:2052📡PING-002.65-MS
-      - 🔒VL-WS-NONE🇸🇪SE-70.34.198.142:2096📡PING-118.29-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:80📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-45.77.53.53:34372📡PING-105.84-MS
-      - 🔒VL-GRPC-TLS🇰🇿KZ-95.164.114.43:2003📡PING-310.93-MS
-      - 🔒VL-GRPC-TLS🇮🇷IR-185.159.153.22:40316📡PING-212.69-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.136.234:2095📡PING-004.66-MS
-      - 🔒VL-WS-TLS🇸🇪SE-13.50.183.148:22222📡PING-125.11-MS
-      - 🔒VL-WS-TLS🇮🇪IE-52.209.44.212:22222📡PING-086.93-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.66.45.2:2087📡PING-003.50-MS
-      - 🔒VL-WS-NA🇬🇧GB-95.179.238.241:27638📡PING-094.93-MS
-      - 🔒VL-WS-TLS🇳🇱NL-188.119.112.242:443📡PING-115.76-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.18.202.209:443📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-188.121.113.211:45771📡PING-234.89-MS
-      - 🔒VL-WS-NA🏴‍☠️NA-104.18.78.200:2052📡PING-002.84-MS
-      - 🔒VL-GRPC-TLS🇦🇺AU-172.105.254.162:2003📡PING-187.82-MS
-      - 🔒VL-TCP-TLS🇺🇸US-85.239.54.108:443📡PING-020.91-MS
-      - 🔒VL-GRPC-TLS🇳🇱NL-188.119.112.242:2003📡PING-102.18-MS
-      - 🔒VL-GRPC-TLS🇪🇸ES-94.131.117.240:2003📡PING-132.53-MS
-      - 🔒VL-WS-TLS🇬🇧GB-18.134.193.241:22222📡PING-098.05-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:8080📡PING-003.60-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.16.3.35:8880📡PING-002.65-MS
-      - 🔒VL-WS-TLS🇦🇺AU-172.105.254.162:443📡PING-187.05-MS
-      - 🔒VL-TCP-TLS🇯🇵JP-172.234.87.210:443📡PING-149.69-MS
-      - 🔒VL-WS-TLS🇺🇸US-18.233.22.21:22222📡PING-028.38-MS
-      - 🔒VL-WS-TLS🇩🇪DE-50.7.85.221:443📡PING-102.76-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.8:80📡PING-014.03-MS
-      - 🔒VL-WS-TLS🇨🇦CA-99.79.104.122:22222📡PING-021.49-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.133.234:2095📡PING-003.44-MS
-      - 🔒VL-TCP-TLS🇸🇬SG-139.162.9.137:443📡PING-213.32-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-89.107.58.97:56347📡PING-094.54-MS
-      - 🔒VL-WS-TLS🇨🇦CA-3.96.182.111:22222📡PING-021.39-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.193.36:80📡PING-002.86-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.125:80📡PING-014.00-MS
-      - 🔒VL-WS-TLS🇯🇵JP-18.181.170.90:36557📡PING-148.05-MS
-      - 🔒VL-WS-TLS🇸🇬SG-18.143.94.44:2053📡PING-215.93-MS
-      - 🔒VL-WS-TLS🇮🇷IR-62.60.147.23:12345📡PING-224.05-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.64.143.61:443📡PING-023.27-MS
-      - 🔒VL-WS-TLS🇩🇪DE-5.75.236.28:443📡PING-110.40-MS
-      - 🔒VL-WS-NONE🇮🇷IR-194.5.50.231:35688📡PING-245.77-MS
-      - 🔒VL-WS-TLS🇩🇪DE-138.68.70.18:443📡PING-105.97-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.16.124.175:8443📡PING-002.68-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-3.79.104.11:13549📡PING-108.34-MS
-      - 🔒VL-WS-TLS🇯🇵JP-54.238.191.253:29925📡PING-148.14-MS
-      - 🔒VL-WS-TLS🇰🇷KR-132.145.91.171:8443📡PING-175.35-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:58769📡PING-109.72-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-116.203.76.138:22304📡PING-108.71-MS
-      - 🔒VL-WS-NONE🇮🇷IR-45.92.93.134:56808📡PING-221.87-MS
-      - 🔒VL-WS-NONE🇮🇷IR-185.208.78.147:22246📡PING-221.75-MS
-      - 🔒VL-WS-TLS🇰🇷KR-193.122.126.138:8243📡PING-178.48-MS
-      - 🔒VL-GRPC-TLS🇺🇸US-63.141.128.8:443📡PING-002.93-MS
-      - 🔒VL-TCP-TLS🇳🇱NL-194.61.120.42:443📡PING-101.98-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.32.23.250:8090📡PING-221.06-MS
-      - 🔒VL-WS-NONE🇩🇪DE-3.79.104.11:16065📡PING-106.76-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:27956📡PING-108.64-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.16.122.17:2096📡PING-002.68-MS
-      - 🔒VL-WS-NONE🇨🇷CR-190.93.247.247:8880📡PING-002.67-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.18.205.181:2053📡PING-004.96-MS
-      - 🔒VL-WS-NONE🇮🇳IN-144.24.139.190:28852📡PING-250.41-MS
-      - 🔒VL-GRPC-TLS🇩🇪DE-146.19.233.85:443📡PING-115.92-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41330📡PING-108.85-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-91.107.240.230:29072📡PING-109.73-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:4434📡PING-108.79-MS
-      - 🔒VL-WS-NONE🇹🇷TR-185.219.133.194:8880📡PING-136.54-MS
-      - 🔒VL-TCP-TLS🇮🇳IN-192.46.208.47:443📡PING-211.07-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:52597📡PING-093.04-MS
-      - 🔒VL-TCP-NA🇸🇪SE-45.82.13.117:2053📡PING-119.29-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.152.179.157:8090📡PING-219.86-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41854📡PING-108.40-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.219:80📡PING-014.10-MS
-      - 🔒VL-WS-TLS🇨🇳CN-103.184.45.45:443📡PING-002.66-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:48074📡PING-093.66-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.89.90:2082📡PING-002.69-MS
-      - 🔒VL-WS-NONE🇳🇱NL-167.99.17.149:80📡PING-102.27-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.79:6735📡PING-222.06-MS
-      - 🔒VL-TCP-NONE🇸🇪SE-70.34.207.130:34372📡PING-118.16-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.82:12478📡PING-217.51-MS
+      - 🔒SS-TCP-NA🇺🇸US-172.233.214.104:8080📡PING-019.72-MS
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.152:8080📡PING-022.42-MS
+      - 🇺🇸US|vless|@v2logy|3
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:811📡PING-027.71-MS
+      - 🏳️XX|vless|@TVCminer|5_1
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:807📡PING-024.09-MS
+      - 🏳️XX|vless|@TVCminer|5_2
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.133:7001📡PING-025.35-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:8881📡PING-036.05-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:9101📡PING-033.31-MS
+      - 🔒SS-TCP-NA🇺🇸US-167.88.62.30:8090📡PING-036.55-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.121.43.97:7306📡PING-019.46-MS
+      - 🔒SS-TCP-NA🇸🇬SG-91.192.81.21:8388📡PING-234.36-MS
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -677,91 +173,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🔒VL-WS-TLS🇰🇿KZ-95.164.114.43:443📡PING-309.67-MS
-      - 🔒VL-WS-NONE🇸🇬SG-128.199.152.124:15325📡PING-211.84-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-199.247.23.98:34371📡PING-106.41-MS
-      - 🔒VL-WS-TLS🇮🇪IE-99.81.199.159:22222📡PING-087.00-MS
-      - 🔒VL-WS-TLS🇪🇸ES-94.131.117.240:443📡PING-133.97-MS
-      - 🔒VL-GRPC-NONE🇫🇷FR-178.32.117.238:41073📡PING-098.73-MS
-      - 🔒VL-WS-TLS🇫🇷FR-13.38.194.72:22222📡PING-101.14-MS
-      - 🔒VL-TCP-TLS🇩🇪DE-172.105.72.62:443📡PING-105.15-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.131.24:2052📡PING-002.65-MS
-      - 🔒VL-WS-NONE🇸🇪SE-70.34.198.142:2096📡PING-118.29-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:80📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-45.77.53.53:34372📡PING-105.84-MS
-      - 🔒VL-GRPC-TLS🇰🇿KZ-95.164.114.43:2003📡PING-310.93-MS
-      - 🔒VL-GRPC-TLS🇮🇷IR-185.159.153.22:40316📡PING-212.69-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.136.234:2095📡PING-004.66-MS
-      - 🔒VL-WS-TLS🇸🇪SE-13.50.183.148:22222📡PING-125.11-MS
-      - 🔒VL-WS-TLS🇮🇪IE-52.209.44.212:22222📡PING-086.93-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.66.45.2:2087📡PING-003.50-MS
-      - 🔒VL-WS-NA🇬🇧GB-95.179.238.241:27638📡PING-094.93-MS
-      - 🔒VL-WS-TLS🇳🇱NL-188.119.112.242:443📡PING-115.76-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.18.202.209:443📡PING-002.88-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-188.121.113.211:45771📡PING-234.89-MS
-      - 🔒VL-WS-NA🏴‍☠️NA-104.18.78.200:2052📡PING-002.84-MS
-      - 🔒VL-GRPC-TLS🇦🇺AU-172.105.254.162:2003📡PING-187.82-MS
-      - 🔒VL-TCP-TLS🇺🇸US-85.239.54.108:443📡PING-020.91-MS
-      - 🔒VL-GRPC-TLS🇳🇱NL-188.119.112.242:2003📡PING-102.18-MS
-      - 🔒VL-GRPC-TLS🇪🇸ES-94.131.117.240:2003📡PING-132.53-MS
-      - 🔒VL-WS-TLS🇬🇧GB-18.134.193.241:22222📡PING-098.05-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.18.203.232:8080📡PING-003.60-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.16.3.35:8880📡PING-002.65-MS
-      - 🔒VL-WS-TLS🇦🇺AU-172.105.254.162:443📡PING-187.05-MS
-      - 🔒VL-TCP-TLS🇯🇵JP-172.234.87.210:443📡PING-149.69-MS
-      - 🔒VL-WS-TLS🇺🇸US-18.233.22.21:22222📡PING-028.38-MS
-      - 🔒VL-WS-TLS🇩🇪DE-50.7.85.221:443📡PING-102.76-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.8:80📡PING-014.03-MS
-      - 🔒VL-WS-TLS🇨🇦CA-99.79.104.122:22222📡PING-021.49-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-162.159.133.234:2095📡PING-003.44-MS
-      - 🔒VL-TCP-TLS🇸🇬SG-139.162.9.137:443📡PING-213.32-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-89.107.58.97:56347📡PING-094.54-MS
-      - 🔒VL-WS-TLS🇨🇦CA-3.96.182.111:22222📡PING-021.39-MS
-      - 🔒VL-WS-NONE🇺🇸US-172.67.193.36:80📡PING-002.86-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.125:80📡PING-014.00-MS
-      - 🔒VL-WS-TLS🇯🇵JP-18.181.170.90:36557📡PING-148.05-MS
-      - 🔒VL-WS-TLS🇸🇬SG-18.143.94.44:2053📡PING-215.93-MS
-      - 🔒VL-WS-TLS🇮🇷IR-62.60.147.23:12345📡PING-224.05-MS
-      - 🔒VL-WS-TLS🇺🇸US-172.64.143.61:443📡PING-023.27-MS
-      - 🔒VL-WS-TLS🇩🇪DE-5.75.236.28:443📡PING-110.40-MS
-      - 🔒VL-WS-NONE🇮🇷IR-194.5.50.231:35688📡PING-245.77-MS
-      - 🔒VL-WS-TLS🇩🇪DE-138.68.70.18:443📡PING-105.97-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.16.124.175:8443📡PING-002.68-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-3.79.104.11:13549📡PING-108.34-MS
-      - 🔒VL-WS-TLS🇯🇵JP-54.238.191.253:29925📡PING-148.14-MS
-      - 🔒VL-WS-TLS🇰🇷KR-132.145.91.171:8443📡PING-175.35-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:58769📡PING-109.72-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-116.203.76.138:22304📡PING-108.71-MS
-      - 🔒VL-WS-NONE🇮🇷IR-45.92.93.134:56808📡PING-221.87-MS
-      - 🔒VL-WS-NONE🇮🇷IR-185.208.78.147:22246📡PING-221.75-MS
-      - 🔒VL-WS-TLS🇰🇷KR-193.122.126.138:8243📡PING-178.48-MS
-      - 🔒VL-GRPC-TLS🇺🇸US-63.141.128.8:443📡PING-002.93-MS
-      - 🔒VL-TCP-TLS🇳🇱NL-194.61.120.42:443📡PING-101.98-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.32.23.250:8090📡PING-221.06-MS
-      - 🔒VL-WS-NONE🇩🇪DE-3.79.104.11:16065📡PING-106.76-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:27956📡PING-108.64-MS
-      - 🔒VL-GRPC-TLS🏴‍☠️NA-104.16.122.17:2096📡PING-002.68-MS
-      - 🔒VL-WS-NONE🇨🇷CR-190.93.247.247:8880📡PING-002.67-MS
-      - 🔒VL-WS-TLS🏴‍☠️NA-104.18.205.181:2053📡PING-004.96-MS
-      - 🔒VL-WS-NONE🇮🇳IN-144.24.139.190:28852📡PING-250.41-MS
-      - 🔒VL-GRPC-TLS🇩🇪DE-146.19.233.85:443📡PING-115.92-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41330📡PING-108.85-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-91.107.240.230:29072📡PING-109.73-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:4434📡PING-108.79-MS
-      - 🔒VL-WS-NONE🇹🇷TR-185.219.133.194:8880📡PING-136.54-MS
-      - 🔒VL-TCP-TLS🇮🇳IN-192.46.208.47:443📡PING-211.07-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:52597📡PING-093.04-MS
-      - 🔒VL-TCP-NA🇸🇪SE-45.82.13.117:2053📡PING-119.29-MS
-      - 🔒VL-TCP-NONE🇮🇷IR-37.152.179.157:8090📡PING-219.86-MS
-      - 🔒VL-TCP-NONE🇩🇪DE-5.75.133.63:41854📡PING-108.40-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.21.224.219:80📡PING-014.10-MS
-      - 🔒VL-WS-TLS🇨🇳CN-103.184.45.45:443📡PING-002.66-MS
-      - 🔒VL-TCP-NONE🇬🇧GB-198.244.220.185:48074📡PING-093.66-MS
-      - 🔒VL-WS-NONE🏴‍☠️NA-104.17.89.90:2082📡PING-002.69-MS
-      - 🔒VL-WS-NONE🇳🇱NL-167.99.17.149:80📡PING-102.27-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.79:6735📡PING-222.06-MS
-      - 🔒VL-TCP-NONE🇸🇪SE-70.34.207.130:34372📡PING-118.16-MS
-      - 🔒VL-WS-NONE🇮🇷IR-2.189.130.82:12478📡PING-217.51-MS
+      - 🔒SS-TCP-NA🇺🇸US-172.233.214.104:8080📡PING-019.72-MS
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.152:8080📡PING-022.42-MS
+      - 🇺🇸US|vless|@v2logy|3
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:811📡PING-027.71-MS
+      - 🏳️XX|vless|@TVCminer|5_1
+      - 🔒SS-TCP-NA🇨🇦CA-134.195.196.178:807📡PING-024.09-MS
+      - 🏳️XX|vless|@TVCminer|5_2
+      - 🔒SS-TCP-NA🇺🇸US-216.39.248.133:7001📡PING-025.35-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:8881📡PING-036.05-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.68.134.9:9101📡PING-033.31-MS
+      - 🔒SS-TCP-NA🇺🇸US-167.88.62.30:8090📡PING-036.55-MS
+      - 🔒SS-TCP-NA🇺🇸US-38.121.43.97:7306📡PING-019.46-MS
+      - 🔒SS-TCP-NA🇸🇬SG-91.192.81.21:8388📡PING-234.36-MS
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
